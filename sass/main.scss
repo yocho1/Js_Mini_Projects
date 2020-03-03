@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,700&display=swap');
 
-
-@import "variables";
-@import "navbar";
-@import "header";
-@import "footer";
-@import "testimonial";
-
 * {
     margin: 0rem;
     padding: 0rem;
@@ -19,3 +12,12 @@ body{
     margin: 0px auto;
     font-family: 'Be Vietnam';
 }
+
+
+@import "variables";
+@import "navbar";
+@import "header";
+@import "footer";
+@import "testimonial";
+@import "section";
+
