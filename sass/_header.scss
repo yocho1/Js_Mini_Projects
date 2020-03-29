@@ -1,0 +1,68 @@
+@import 'variables';
+
+
+header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex-wrap:wrap-reverse; 
+    
+  
+  .T_B{
+    margin: 8em;
+  }
+  
+  #H01 {
+    animation: type 1s steps(38);
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  #P01{
+    margin-top: 20px;
+    color: $darkGrayishBlue;
+  
+  }
+  
+  @keyframes type {
+    0%{
+      width: 0;
+     }
+    100%{
+      width: 100%;
+     } 
+    }
+
+    .btn{
+      margin-top: 2em;
+
+      }
+      
+    .button {
+        width: 140px;
+        height: 45px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #fff;
+        background-color: $brightRed;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(240, 125, 58, 0.753);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        }
+      
+    .button:hover {
+        transform: translateY(-7px);
+      }
+    } 
+
+          
+      
+   
+
+
